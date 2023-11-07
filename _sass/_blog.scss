@@ -24,3 +24,12 @@
     color: white !important;
   }
 }
+
+/* Style tooltip to avoid grey on black background */
+#vg-tooltip-element {
+  background-color: #333; /* Dark background for the tooltip */
+  color: #FFF; /* White text color */
+  padding: 8px; /* Some padding inside the tooltip */
+  border-radius: 4px; /* Rounded corners */
+  border: 1px solid #777; /* A subtle border */
+}

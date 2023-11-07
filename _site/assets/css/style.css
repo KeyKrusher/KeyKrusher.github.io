@@ -112,6 +112,9 @@ body { font-family: "Poppins", sans-serif; }
 .post-metadata { font-size: 14px; margin-top: -6px; }
 .post-metadata .tag:hover { background-color: #007bff; color: white !important; }
 
+/* Style tooltip to avoid grey on black background */
+#vg-tooltip-element { background-color: #333; /* Dark background for the tooltip */ color: #FFF; /* White text color */ padding: 8px; /* Some padding inside the tooltip */ border-radius: 4px; /* Rounded corners */ border: 1px solid #777; /* A subtle border */ }
+
 .social { text-decoration: none !important; }
 
 #attribution { opacity: 0.5; }
